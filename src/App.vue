@@ -47,4 +47,8 @@ export default {
       }
     }
   }
+
+  .router-link-exact-active {
+    background-color: yellow;
+  }
 </style>
