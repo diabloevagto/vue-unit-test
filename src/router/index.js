@@ -7,14 +7,15 @@ Vue.use(Router);
 
 export default new Router({
   mode: 'history',
+  base: '/vue-unit-test/',
   routes: [
     {
-      path: '/vue-unit-test/',
+      path: '/',
       name: 'home',
       component: Home,
     },
     {
-      path: '/vue-unit-test/test1',
+      path: '/test1',
       name: 'test1',
       component: Test1,
     },
