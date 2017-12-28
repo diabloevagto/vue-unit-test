@@ -9,12 +9,12 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/vue-unit-test/',
       name: 'home',
       component: Home,
     },
     {
-      path: '/test1',
+      path: '/vue-unit-test/test1',
       name: 'test1',
       component: Test1,
     },
