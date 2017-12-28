@@ -1,5 +1,7 @@
 # vue-unit-test
 
+[![Build Status](https://travis-ci.org/diabloevagto/vue-unit-test.svg?branch=gh-pages)](https://travis-ci.org/diabloevagto/vue-unit-test)
+
 > 利用 jest 測試 vuex
 
 ## 測試方式
