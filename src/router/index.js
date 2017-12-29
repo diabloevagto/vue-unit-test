@@ -6,7 +6,6 @@ import Test1 from '@/components/test1';
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
   base: '/vue-unit-test/',
   routes: [
     {
