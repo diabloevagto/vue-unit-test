@@ -3,6 +3,7 @@ node_js: stable
 install:
   - npm install
 script:
+  - npm run unit
   - npm run build
 after_success:
   - cd ./dist
