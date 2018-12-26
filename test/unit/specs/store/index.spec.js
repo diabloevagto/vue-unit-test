@@ -18,7 +18,7 @@ describe('mutations', () => {
   test('increment', () => {
     state = { count: 20 };
     mutations.increment(state, 1);
-    expect(state.count).toBe(21);
+    expect(state.count).toBe(210);
 
     mutations.increment(state, -10);
     expect(state.count).toBe(11);
